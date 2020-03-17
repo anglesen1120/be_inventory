@@ -1,0 +1,29 @@
+{
+    "development": {
+        "environment": "postgres",
+        "applicationname": "NestJS Inventory Project",
+        "typeorm": "postgres",
+        "host_postgresql": "db-postgresql-nyc1-70924-do-user-7105612-0.db.ondigitalocean.com",
+        "port_postgresql": 25060,
+        "database": "TaskManager",
+        "username": "doadmin",
+        "password": "ycycctibzkepphpc",
+        "synchronize": true,
+        "ssl": true
+    },
+    "application": {
+        "port": 3000
+    },
+    "authentication": {
+        "secretOrKey": "topSecretProject",
+        "expiresIn": 31536000
+    },
+    "swaggerconfig": {
+        "setTitle": "API Love Break",
+        "setDescription": "The API of Inventory Sales",
+        "setVersion": "1.0",
+        "addTag": "API Love Break",
+        "domain_pro": "https://love-break.now.sh/api/",
+        "doman_localhost": "http://localhost:3000"
+    }
+}

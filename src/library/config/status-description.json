@@ -1,0 +1,8 @@
+{
+    "DescriptionStatus": {
+        "QuerrySuccessful": "Querry successfull to Database",
+        "InsertSuccessful": "Insert successfull to Database",
+        "UpdateSuccessful": "Update successfull to Database",
+        "NoContentStatus" : "Can not find imformation on this querry"
+    }
+}
